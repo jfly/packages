@@ -1,12 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=wifi-presence
-PKG_VERSION:=0.3.0
-PKG_RELEASE:=2
+PKG_VERSION:=issue-30-workaround
+PKG_RELEASE:=1
+BRANCH:=issue-30-workaround
 
-PKG_SOURCE:=-$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/awilliams/wifi-presence/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=70014a3d72635fece3ec666bcf0235f7bbd028cea6bc10d8548fbb2a8a8cbc1d
+PKG_SOURCE:=-wifi-presence-$(BRANCH).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/jfly/wifi-presence/tar.gz/$(BRANCH)?
+PKG_HASH:=7b6b550863f7a84e472639e756ca18a6c9ee57b871c1fc5fb61c8ed92a57d190
 
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=Adam Williams <pwnfactory@gmail.com>
