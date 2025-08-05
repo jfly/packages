@@ -7,7 +7,7 @@ BRANCH:=issue-30-workaround
 
 PKG_SOURCE:=-wifi-presence-$(BRANCH).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/jfly/wifi-presence/tar.gz/$(BRANCH)?
-PKG_HASH:=7b6b550863f7a84e472639e756ca18a6c9ee57b871c1fc5fb61c8ed92a57d190
+PKG_HASH:=99867b2c4a49982732c60893b88b015ee5451a0bb8e2e466c44a5df2d6a1e59c
 
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=Adam Williams <pwnfactory@gmail.com>
